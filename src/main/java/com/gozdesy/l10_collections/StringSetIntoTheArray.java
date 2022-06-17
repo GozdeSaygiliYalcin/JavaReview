@@ -37,15 +37,15 @@ public class StringSetIntoTheArray {
 ////			 System.out.println(number);
 //	}
 //		
-//		String st = "abcdefg123467686";
-//		
-//		String st1=st.replaceAll("[^0-9]", "");
-//		System.out.println("String  = "+st1);
-//
-//		char[] arr2 = st1.toCharArray();
-//		int number = Integer.parseInt(new String(arr2));
-//		
-//		System.out.println(number);
+		String st = "abcdefg123467686";
+		
+		String st1=st.replaceAll("[^0-9]", "");
+		System.out.println("String  = "+st1);
+
+		char[] arr2 = st1.toCharArray();
+		int number = Integer.parseInt(new String(arr2));
+		
+		System.out.println(number);
 	
 		String userInput = "3 gozde 3 olgu ali veli abcd 7";
 		int i;
