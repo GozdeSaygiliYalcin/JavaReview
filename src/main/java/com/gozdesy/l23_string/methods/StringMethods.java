@@ -16,7 +16,8 @@ public class StringMethods {
 		System.out.println(Arrays.toString(splitSample));
 		System.out.println(Arrays.toString(splitSample2));
 		
-		System.out.println(name.charAt(1)); //1.indexteki harfi yazdırıyor
+		System.out.println(name.charAt(1)); //1.indexteki harfi yazdırıyor.
+		System.out.println("char array metodu= " +Arrays.toString(name.toCharArray())); //char şeklinde dizi oluşturuluyor
 		System.out.println(name.compareTo(anotherName)); 
 		System.out.println(name.contains("zd")); //true ya da false döndürüyor, içinde varsa true yoksa false
 		System.out.println(name.indexOf("d")); //d harfinin kaçıncı index te olduğunu buluyor. bulduğu ilk değeri dönderiyor
