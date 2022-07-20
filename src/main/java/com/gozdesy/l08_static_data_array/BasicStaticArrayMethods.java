@@ -3,7 +3,7 @@ package main.java.com.gozdesy.l08_static_data_array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BasircStaticArrayMethods {
+public class BasicStaticArrayMethods {
 	
 	public static int [] fillArray(int n) { //scanner sınıfı ile array yaratıyoruz
 		
@@ -26,7 +26,7 @@ public class BasircStaticArrayMethods {
 
 	public static void main(String[] args) {
 		
-//		int [] arrayN = fillArray(6);
+		int [] arrayN = fillArray(6);
 //		printArray(arrayN);
 		
 		
