@@ -24,6 +24,17 @@ public class ForSample {
 	}
 
 	public static void main(String[] args) {
+		int result = 0;
+		for (int i = 0; i < 5; i++) {
+		  if (i == 3) { 
+		     result += 10;
+		     System.out.println(result);
+		   } else {
+		     result += i;
+		     System.out.println(result);
+		   }	
+		}
+		System.out.println(result);
 		
 		ForSample object = new ForSample();
 		object.multiplication();
