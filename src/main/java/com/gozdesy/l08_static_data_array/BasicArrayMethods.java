@@ -15,13 +15,22 @@ public class BasicArrayMethods {
 		 System.out.print("2-copy of method-new array that includes 4 members: ");
 		 System.out.println(Arrays.toString(newArray));
 	}
+	public int searchArray(int [] arr, int search) { //3-binary search aranan numara arrayda varsa indeks numarasını getirir
+		int searching = Arrays.binarySearch(arr, search);
+		return searching;
+		
+	}
 
 	public static void main(String[] args) {
 		// Arrays sınıfı ve metotlarının kullanımı
 		BasicArrayMethods methods = new BasicArrayMethods();
 		int [] a3 = {1,2,3,4,5,6,7,8,9,10,11};
 		methods.copyArrayRange(a3); // 1-copy of range
-		methods.copyArray(a3);
+		methods.copyArray(a3); //2-copy of
+		System.out.println(methods.searchArray(a3, 2));  //3-binary search
+		
+		int x = 0, y = -2; 
+		System.out.print(Math.min(x,y)); 
  
 	}
 

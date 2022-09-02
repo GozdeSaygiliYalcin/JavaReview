@@ -7,6 +7,7 @@ public class BasicStaticArrayMethods {
 	
 	public static int [] fillArray(int n) { //scanner sınıfı ile array yaratıyoruz
 		
+			@SuppressWarnings("resource")
 			Scanner input = new Scanner(System.in);
 		
 			int [] fillingArray = new int [n];
@@ -26,19 +27,20 @@ public class BasicStaticArrayMethods {
 
 	public static void main(String[] args) {
 		
-//		int [] arrayN = fillArray(6);
+		@SuppressWarnings("unused")
+		int [] arrayN = fillArray(6);
 //		printArray(arrayN);
 	
 		
 		int [] a1 = {1,2,3,4};
 		int [] a2 = {1,2,3,4};
 
-//		if(Arrays.equals(a1, a2)) { //equals iki arrayin içeriğinin eşitliğini kıyaslıyor
-//			System.out.println("content is equal");
-//			
-//		} else {
-//			System.out.println("content is not equal");
-//		}
+		if(Arrays.equals(a1, a2)) { //equals iki arrayin içeriğinin eşitliğini kıyaslıyor
+			System.out.println("content is equal");
+			
+		} else {
+			System.out.println("content is not equal");
+		}
 
 	}
 }
